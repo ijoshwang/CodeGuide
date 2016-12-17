@@ -5,7 +5,7 @@
 <div class="section" id="css-indentation">
     <div class="col">
         <h3>缩进</h3>
-        <p>使用soft tab（4个空格）。</p>
+        <p>使用soft tab（2个空格）。</p>
     </div>
     <div class="col">
         {% highlight css %}{% include css/indentation.css %}{% endhighlight %}
@@ -55,7 +55,7 @@
         <p>以下几种情况需要空行：</p>
         <ul>
             <li>文件最后保留一个空行</li>
-            <li>'}'后最好跟一个空行，包括scss中嵌套的规则</li>
+            <li>'}'后最好跟一个空行，包括 scss 中嵌套的规则</li>
             <li>属性之间需要适当的空行，具体见<a href="#css-declaration-order">属性声明顺序</a></li>
         </ul>
     </div>
@@ -86,7 +86,7 @@
 <div class="section" id="css-comments">
     <div class="col">
         <h3>注释</h3>
-        <p>注释统一用'/* */'（scss中也不要用'//'），具体参照右边的写法；</p>
+        <p>注释统一用'/* */'（scss 中也不要用'//'），具体参照右边的写法；</p>
         <p>缩进与下一行代码保持一致；</p>
         <p>可位于一个代码行的末尾，与代码间隔一个空格。</li>
     </div>
@@ -99,7 +99,7 @@
     <div class="col">
         <h3>引号</h3>
         <p>最外层统一使用双引号；</p>
-        <p>url的内容要用引号；</p>
+        <p>url 的内容要用引号；</p>
         <p>属性选择器中的属性值需要引号。</p>
     </div>
     <div class="col">
@@ -111,9 +111,8 @@
     <div class="col">
         <h3>命名</h3>
         <ul>
-            <li>类名使用小写字母，以中划线分隔</li>
-            <li>id采用驼峰式命名</li>
-            <li>scss中的变量、函数、混合、placeholder采用驼峰式命名</li>
+            <li>类名和 id 使用小写字母，以中划线分隔</li>
+            <li>scss 中的变量、函数、混合、placeholder 采用驼峰式命名</li>
         </ul>
     </div>
     <div class="col">
@@ -135,8 +134,8 @@
 <div class="section" id="css-color">
     <div class="col">
         <h3>颜色</h3>
-        <p>颜色16进制用小写字母；</p>
-        <p>颜色16进制尽量用简写。</p>
+        <p>颜色 16 进制用小写字母；</p>
+        <p>颜色 16 进制尽量用简写。</p>
     </div>
     <div class="col">
         {% highlight css %}{% include css/color.css %}{% endhighlight %}
@@ -173,7 +172,7 @@
 
 <div class="section" id="css-scss">
     <div class="col">
-        <h3>SCSS相关</h3>
+        <h3>SCSS 相关</h3>
         <p>提交的代码中不要有 <code>@debug</code>；</p>
         <div>
             <p>声明顺序：</p>
@@ -187,7 +186,7 @@
         </div>
         <p><code>@import</code> 引入的文件不需要开头的'_'和结尾的'.scss'；</p>
         <p>嵌套最多不能超过5层；</p>
-        <p><code>@extend</code> 中使用placeholder选择器；</p>
+        <p><code>@extend</code> 中使用 placeholder 选择器；</p>
         <p>去掉不必要的父级引用符号'&'。</p>
     </div>
     <div class="col">
@@ -200,17 +199,17 @@
         <h3>杂项</h3>
         <p>不允许有空的规则；</p>
         <p>元素选择器用小写字母；</p>
-        <p>去掉小数点前面的0；</p>
-        <p>去掉数字中不必要的小数点和末尾的0；</p>
-        <p>属性值'0'后面不要加单位；</p>
+        <p>去掉小数点前面的 0；</p>
+        <p>去掉数字中不必要的小数点和末尾的 0；</p>
+        <p>属性值 '0' 后面不要加单位；</p>
         <p>同个属性不同前缀的写法需要在垂直方向保持对齐，具体参照右边的写法；</p>
         <p>无前缀的标准属性应该写在有前缀的属性后面；</p>
         <p>不要在同个规则里出现重复的属性，如果重复的属性是连续的则没关系；</p>
         <p>不要在一个文件里出现两个相同的规则；</p>
         <p>用 <code>border: 0;</code> 代替 <code>border: none;</code>；</p>
-        <p>选择器不要超过4层（在scss中如果超过4层应该考虑用嵌套的方式来写）；</p>
+        <p>选择器不要超过 4 层（在 scss 中如果超过 4 层应该考虑用嵌套的方式来写）；</p>
         <p>发布的代码中不要有 <code>@import</code>；</p>
-        <p>尽量少用'*'选择器。</p>
+        <p>尽量少用 '*' 选择器。</p>
     </div>
     <div class="col">
         {% highlight css %}{% include css/miscellaneous.css %}{% endhighlight %}

@@ -4,17 +4,17 @@
 
 /* good */
 .element {
-    color: red;
-    background-color: black;
+  color: red;
+  background-color: black;
 }
 
 /* not good */
 .element, .dialog {
-    ...
+  ...
 }
 
 /* good */
 .element,
 .dialog {
-    ...
+  ...
 }

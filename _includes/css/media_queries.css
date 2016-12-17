@@ -1,17 +1,17 @@
 .element {
-    ...
+  ...
 }
 
-.element-avatar{
-    ...
+.element-avatar {
+  ...
 }
 
 @media (min-width: 480px) {
-    .element {
-        ...
-    }
+  .element {
+    ...
+  }
 
-    .element-avatar {
-        ...
-    }
+  .element-avatar {
+    ...
+  }
 }

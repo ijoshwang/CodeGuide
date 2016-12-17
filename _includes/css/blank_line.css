@@ -1,23 +1,23 @@
 /* not good */
 .element {
-    ...
+  ...
 }
 .dialog {
-    color: red;
-    &:after {
-        ...
-    }
+  color: red;
+  &:after {
+    ...
+  }
 }
 
 /* good */
 .element {
-    ...
+  ...
 }
 
 .dialog {
-    color: red;
+  color: red;
 
-    &:after {
-        ...
-    }
+  &:after {
+    ...
+  }
 }

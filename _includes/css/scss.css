@@ -6,24 +6,24 @@
 
 /* not good */
 .fatal {
-    @extend .error;
+  @extend .error;
 }
 
 /* good */
 .fatal {
-    @extend %error;
+  @extend %error;
 }
 
 /* not good */
 .element {
-    & > .dialog {
-        ...
-    }
+  & > .dialog {
+    ...
+  }
 }
 
 /* good */
 .element {
-    > .dialog {
-        ...
-    }
+  > .dialog {
+    ...
+  }
 }
