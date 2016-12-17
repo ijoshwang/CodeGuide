@@ -30,7 +30,7 @@
             $this.click(function(e) {
                 e.preventDefault();
                 $("body, html").animate({
-                    scrollTop : 600
+                    scrollTop : 400
                 }, config.speed);
             });
 
