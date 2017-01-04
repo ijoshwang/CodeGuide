@@ -6,5 +6,5 @@ x++;
 
 /* do-while */
 do {
-    x++;
+  x++;
 } while (x < 10);

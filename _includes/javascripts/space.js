@@ -1,11 +1,11 @@
 // not good
 var a = {
-    b :1
+  b: 1
 };
 
 // good
 var a = {
-    b: 1
+  b: 1
 };
 
 // not good
@@ -32,18 +32,18 @@ var a = (1 + 2) * 3;
 
 // no space before '(', one space before '{', one space between function parameters
 var doSomething = function(a, b, c) {
-    // do something
+  // do something
 };
 
 // no space before '('
 doSomething(item);
 
 // not good
-for(i=0;i<6;i++){
-    x++;
+for (i = 0; i < 6; i++) {
+  x++;
 }
 
 // good
 for (i = 0; i < 6; i++) {
-    x++;
+  x++;
 }
