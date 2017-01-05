@@ -1,10 +1,11 @@
 // not good
 var a = {
-  b: 1,
-  c: 2
+  b: 1
+  , c: 2
 };
 
-x = y ? 1 : 2;
+x = y
+  ? 1 : 2;
 
 // good
 var a = {
@@ -32,7 +33,8 @@ try {
 }
 
 // not good
-function test() {
+function test()
+{
   ...
 }
 

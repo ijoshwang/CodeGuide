@@ -24,8 +24,8 @@ switch (condition) {
   case 3:
     ...
     // why fall through
-    case 4
-      ...
+  case 4
+    ...
     break;
     // why no default
 }
