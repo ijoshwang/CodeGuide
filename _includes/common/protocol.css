@@ -1,0 +1,9 @@
+/* Not recommended */
+.example {
+  background: url("https://www.google.com/images/example");
+}
+
+/* Recommended */
+.example {
+  background: url("//www.google.com/images/example");
+}
