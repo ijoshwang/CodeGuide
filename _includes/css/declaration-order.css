@@ -2,6 +2,9 @@
 .declaration-order {
   background: fuchsia;
   border: 1px solid;
+  /* 私有前缀属性顺序 */
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
