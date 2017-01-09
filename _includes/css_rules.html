@@ -2,10 +2,17 @@
     <h2>CSS, SCSS</h2>
 </div>
 
+<div class="section" id="css-encoding">
+    <div class="col">
+        <h3>编码</h3>
+        <p>CSS 中不需要指定编码，因为默认是 UTF-8。</p>
+    </div>
+</div>
+
 <div class="section" id="css-indentation">
     <div class="col">
         <h3>缩进</h3>
-        <p>使用soft tab（2个空格）。</p>
+        <p>使用 soft tab（2个空格）。</p>
     </div>
     <div class="col">
         {% highlight css %}{% include css/indentation.css %}{% endhighlight %}
@@ -31,7 +38,7 @@
             <li>多个规则的分隔符','前</li>
             <li><code>!important</code> '!'后</li>
             <li>属性值中'('后和')'前</li>
-            <li>行末不要有多余的空格</li>
+            <li>行末不要有多余的空格，在比较代码时会很麻烦</li>
         </ul>
         <p>以下几种情况需要空格：</p>
         <ul>
@@ -113,7 +120,8 @@
     <div class="col">
         <h3>命名</h3>
         <ul>
-            <li>类名和 id 使用小写字母，以中划线分隔</li>
+            <li>class 和 id 使用小写字母，以连字符（即 “-”）连接</li>
+            <li>使用有意义的英文命名，尽量简短，同时要容易理解，不要随意使用非常见的缩写</li>
             <li>scss 中的变量、函数、混合、placeholder 采用驼峰式命名</li>
         </ul>
     </div>
