@@ -1,5 +1,5 @@
 // not good
-var a = 1;
+var a   = 1;
 
 function Person() {
   // not good

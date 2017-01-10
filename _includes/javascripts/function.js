@@ -8,7 +8,7 @@ function doSomething(item) {
 }
 
 // not good
-doSomething(item);
+doSomething (item);
 
 // good
 doSomething(item);
